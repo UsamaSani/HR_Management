@@ -1,0 +1,26 @@
+.signin-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.signin-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.signin-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.signin-form .ant-form-item-label > label {
+  color: #555;
+  font-weight: 500;
+}
